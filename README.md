@@ -24,14 +24,23 @@ add it manually: **Morphe Manager → Sources → ＋ → GitHub** → `https://
 ## 🩹 Patches
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/Satwik-Miyyapuram/morphe-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+<details open>
+<summary>📦 Mini Militia Classic&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
 
-<!-- This section is regenerated automatically by release.yml on every release. -->
+**🎯 Supported versions:**
 
-| 💊 Patch | 📜 Description | ⚙️ Options |
-|---|---|---|
-| **Remove ads** | Removes banner and interstitial ads (AppLovin MAX and Google AdMob) and disables rewarded-video prompts. | `disableAdSdkInit` (on), `skipConsentForm` (on) |
-| **Remove ad SDK auto-start** | Removes the AdMob and AppLovin auto-start providers from the manifest. Enabled automatically with *Remove ads*. | — |
-| **Spoof signature** | Reports the original Play Store signing certificate to the game, so the re-signed APK passes its integrity check and online play keeps working. | — |
+| 0.14.4 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Remove ad SDK auto-start](#remove-ad-sdk-auto-start) | Removes the AdMob and AppLovin init providers from the manifest so the ad SDKs never start in the background. |  |
+| [Remove ads](#remove-ads) | Fully removes banner and interstitial ads (AppLovin MAX and AdMob) and disables rewarded video prompts. Optionally stops the ad SDKs and the ad-consent form from loading. | • Disable ad SDK initialization<br>• Skip ad consent form |
+| [Spoof signature](#spoof-signature) | Reports the original Play Store signing certificate to the game, so the re-signed APK passes the game's integrity check and online play isn't affected. |  |
+
+</details>
 
 <!-- PATCHES_END -->
 
