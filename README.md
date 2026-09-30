@@ -2,8 +2,8 @@
 
 **Ad-free Mini Militia Classic. Patches for use with [Morphe](https://morphe.software).**
 
-[![Add to Morphe](https://img.shields.io/badge/Add%20to-Morphe-84cc16?style=for-the-badge&logo=android&logoColor=white)](https://morphe.software/add-source?github=xyz-user/xyz-patches)
-[![Latest release](https://img.shields.io/github/v/release/xyz-user/xyz-patches?style=for-the-badge&label=release)](https://github.com/xyz-user/xyz-patches/releases/latest)
+[![Add to Morphe](https://img.shields.io/badge/Add%20to-Morphe-84cc16?style=for-the-badge&logo=android&logoColor=white)](https://morphe.software/add-source?github=Satwik-Miyyapuram/morphe-patches)
+[![Latest release](https://img.shields.io/github/v/release/Satwik-Miyyapuram/morphe-patches?style=for-the-badge&label=release)](https://github.com/Satwik-Miyyapuram/morphe-patches/releases/latest)
 [![License: GPLv3](https://img.shields.io/badge/license-GPLv3-blue?style=for-the-badge)](LICENSE)
 
 > [!IMPORTANT]
@@ -16,10 +16,10 @@
 
 Open this link **on your Android phone** with [Morphe Manager](https://morphe.software) installed:
 
-### 👉 https://morphe.software/add-source?github=xyz-user/xyz-patches
+### 👉 https://morphe.software/add-source?github=Satwik-Miyyapuram/morphe-patches
 
 Morphe Manager opens and adds this repository as a patch source. If the link doesn't open the app,
-add it manually: **Morphe Manager → Sources → ＋ → GitHub** → `https://github.com/xyz-user/xyz-patches`
+add it manually: **Morphe Manager → Sources → ＋ → GitHub** → `https://github.com/Satwik-Miyyapuram/morphe-patches`
 
 ## 🩹 Patches
 
@@ -45,7 +45,7 @@ add it manually: **Morphe Manager → Sources → ＋ → GitHub** → `https://
 
 ### On your phone (Morphe Manager), recommended
 1. Install **Morphe Manager** from [morphe.software](https://morphe.software).
-2. Tap the [**Add to Morphe**](https://morphe.software/add-source?github=xyz-user/xyz-patches) link above.
+2. Tap the [**Add to Morphe**](https://morphe.software/add-source?github=Satwik-Miyyapuram/morphe-patches) link above.
 3. Get the original APK: Mini Militia Classic **0.14.4**, **APK** variant (not "BUNDLE"),
    `arm64-v8a` for most phones, from [APKMirror](https://www.apkmirror.com/apk/appsomniacs-llc/mini-militia-classic-da2-mmc/).
 4. In Morphe Manager, pick **Mini Militia Classic** (or *select from storage* and choose the APK).
@@ -57,7 +57,7 @@ add it manually: **Morphe Manager → Sources → ＋ → GitHub** → `https://
 ### On a PC with adb (Windows, including ARM64, macOS or Linux)
 1. Install Java 17+ (Windows ARM64: *Microsoft Build of OpenJDK*, ARM64 installer).
 2. Download [`morphe-desktop-*-all.jar`](https://github.com/MorpheApp/morphe-desktop/releases/latest)
-   and `patches-*.mpp` from this repo's [Releases](https://github.com/xyz-user/xyz-patches/releases/latest).
+   and `patches-*.mpp` from this repo's [Releases](https://github.com/Satwik-Miyyapuram/morphe-patches/releases/latest).
 3. Run:
    ```powershell
    java -jar morphe-desktop-1.17.0-all.jar patch -p patches-1.0.0.mpp -o mmc-adfree.apk "Mini Militia Classic 0.14.4.apk"
